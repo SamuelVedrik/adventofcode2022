@@ -34,13 +34,6 @@ def get_new_tail(head, tail):
     dy = heady - taily
     return tail[0] + sign(dx), tail[1] + sign(dy)
 
-    # # new pos if only 2 away
-    # if (abs(dx) == 2 and dy == 0) or (dx == 0 and abs(dy) == 2):
-    #     # only (-2, 0), (2, 0), (0, 2), (0, -2) possible, so this covers those cases 
-    #     return tail[0] + (dx//2), tail[1] + (dy//2)
-    # # move diagonal
-    # else:
-    #     if abs(dx < )
     
 def move_head(head, instruction):
     if instruction == "R":
